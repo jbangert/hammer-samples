@@ -1,4 +1,4 @@
-#include "../src/hammer.h"
+#include "hammer/hammer.h"
 #include "dns_common.h"
 #include "dns.h"
 

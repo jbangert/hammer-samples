@@ -1,5 +1,4 @@
-#include "../src/hammer.h"
-
+#include <hammer/hammer.h>
 enum DNSTokenType_ {
   TT_dns_message_t = TT_USER,
   TT_dns_header_t,

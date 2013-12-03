@@ -13,8 +13,8 @@
 // for an alternative approach using a fine-grained piece-by-piece
 // transformation.
 
-#include "../src/hammer.h"
-#include "../src/glue.h"
+#include <hammer/hammer.h>
+#include <hammer/glue.h>
 #include <assert.h>
 #include <inttypes.h>
 
@@ -143,6 +143,8 @@ const HParser *init_parser(void)
     // It *seemed* to happen mostly with things like "bbbbaaaaBA==".
     // Using less actions seemed to make it less likely.
 
+    if(h_compile(document,PB_LALR,NULL))
+            fprintf(stderr, "Cannot compile to LALR\n");
     return document;
 }
 

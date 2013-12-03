@@ -9,7 +9,7 @@
 // semantic actions to the grammar.
 
 #include <inttypes.h>
-#include "../src/hammer.h"
+#include <hammer/hammer.h>
 
 const HParser* document = NULL;
 

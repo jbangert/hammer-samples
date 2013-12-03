@@ -2,7 +2,7 @@
 #include <netinet/in.h>
 #include <err.h>
 #include <string.h>
-#include "../src/hammer.h"
+#include <hammer/hammer.h>
 #include "dns_common.h"
 #include "dns.h"
 #include "rr.h"

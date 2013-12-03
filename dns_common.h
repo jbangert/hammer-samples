@@ -1,8 +1,8 @@
 #ifndef HAMMER_DNS_COMMON__H
 #define HAMMER_DNS_COMMON__H
+#include <hammer/hammer.h>
+#include <hammer/glue.h>
 
-#include "../src/hammer.h"
-#include "../src/glue.h"
 
 HParser* init_domain();
 HParser* init_character_string();

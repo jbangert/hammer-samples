@@ -12,8 +12,8 @@
 // transform the parse tree in small steps in a bottom-up fashion. Compare
 // base64_sem2.c for an alternative approach using a single top-level action.
 
-#include "../src/hammer.h"
-#include "../src/glue.h"
+#include <hammer/hammer.h>
+#include <hammer/glue.h>
 #include <assert.h>
 #include <inttypes.h>
 
